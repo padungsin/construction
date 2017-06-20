@@ -6,7 +6,7 @@
   <artifactId>construction</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>construction</name>
+  <name>pms</name>
   <repositories>
     <repository>
       <id>guvnor-m2-repo</id>
