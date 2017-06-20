@@ -40,7 +40,6 @@
           <header>Process Code</header>
           <constraintValueType>1</constraintValueType>
           <factField>processCd</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
@@ -55,12 +54,12 @@
           <header>Path Code</header>
           <constraintValueType>1</constraintValueType>
           <factField>pathCd</factField>
-          <fieldType>String</fieldType>
           <operator>==</operator>
           <parameters/>
         </condition-column52>
       </conditions>
       <window>
+        <operator></operator>
         <parameters/>
       </window>
     </Pattern52>
@@ -153,11 +152,11 @@
   <imports>
     <imports>
       <org.drools.workbench.models.datamodel.imports.Import>
-        <type>com.marlo.construction.common.CommonProcessTask</type>
+        <type>com.marlo.pms.common.CommonProcessTask</type>
       </org.drools.workbench.models.datamodel.imports.Import>
     </imports>
   </imports>
-  <packageName>com.marlo.construction.management</packageName>
+  <packageName>com.marlo.pms.management</packageName>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <data>
     <list>
