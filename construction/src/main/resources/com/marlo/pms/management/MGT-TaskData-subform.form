@@ -3,4 +3,5 @@
 <property name="name" value="MGT-TaskData-subform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="taskData" name="#9BCAFA" type="dataModelerEntry" outId="taskData" value="com.marlo.pms.common.CommonProcessTask" id="taskData"/>
 </form>
