@@ -10,7 +10,7 @@ public class Attachment implements java.io.Serializable
    static final long serialVersionUID = 1L;
 
    private java.lang.String title;
-   private comorg.jbpm.document.Document document;
+   private org.jbpm.document.Document document;
 
    public Attachment()
    {
