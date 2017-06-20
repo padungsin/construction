@@ -3,4 +3,5 @@
 <property name="name" value="MGT-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="application" name="#E9E371" type="dataModelerEntry" outId="application" value="com.marlo.pms.management.MGTApplication" id="application"/>
 </form>
