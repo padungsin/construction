@@ -9,25 +9,25 @@ public class ApplicationData implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
-   private com.marlo.construction.common.CommonProcessTask taskData;
+   private com.marlo.pms.common.CommonProcessTask taskData;
 
    public ApplicationData()
    {
    }
 
-   public com.marlo.construction.common.CommonProcessTask getTaskData()
+   public com.marlo.pms.common.CommonProcessTask getTaskData()
    {
       return this.taskData;
    }
 
    public void setTaskData(
-         com.marlo.construction.common.CommonProcessTask taskData)
+         com.marlo.pms.common.CommonProcessTask taskData)
    {
       this.taskData = taskData;
    }
 
    public ApplicationData(
-         com.marlo.construction.common.CommonProcessTask taskData)
+         com.marlo.pms.common.CommonProcessTask taskData)
    {
       this.taskData = taskData;
    }
