@@ -11,6 +11,8 @@ public class ApplicationData implements java.io.Serializable
 
    private com.marlo.pms.common.CommonProcessTask taskData;
 
+   private com.marlo.pms.common.MGTBusinessData mgtBusinessData;
+
    public ApplicationData()
    {
    }
@@ -26,10 +28,22 @@ public class ApplicationData implements java.io.Serializable
       this.taskData = taskData;
    }
 
-   public ApplicationData(
-         com.marlo.pms.common.CommonProcessTask taskData)
+   public com.marlo.pms.common.MGTBusinessData getMgtBusinessData()
+   {
+      return this.mgtBusinessData;
+   }
+
+   public void setMgtBusinessData(
+         com.marlo.pms.common.MGTBusinessData mgtBusinessData)
+   {
+      this.mgtBusinessData = mgtBusinessData;
+   }
+
+   public ApplicationData(com.marlo.pms.common.CommonProcessTask taskData,
+         com.marlo.pms.common.MGTBusinessData mgtBusinessData)
    {
       this.taskData = taskData;
+      this.mgtBusinessData = mgtBusinessData;
    }
 
 }
