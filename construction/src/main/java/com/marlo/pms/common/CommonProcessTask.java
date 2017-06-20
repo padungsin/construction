@@ -17,6 +17,8 @@ public class CommonProcessTask implements java.io.Serializable
    private java.lang.String ruleName;
    private java.lang.String userName;
 
+   private java.util.Date expiryDate;
+
    public CommonProcessTask()
    {
    }
@@ -91,19 +93,6 @@ public class CommonProcessTask implements java.io.Serializable
       this.userName = userName;
    }
 
-   public CommonProcessTask(java.lang.String pathCd, java.lang.String groupName,
-         java.lang.String taskName, java.lang.String taskDescription,
-         java.lang.String processCd, java.lang.String ruleName,
-         java.lang.String userName)
-   {
-      this.pathCd = pathCd;
-      this.groupName = groupName;
-      this.taskName = taskName;
-      this.taskDescription = taskDescription;
-      this.processCd = processCd;
-      this.ruleName = ruleName;
-      this.userName = userName;
-   }
    public String toString()
    {
       StringBuffer strBuffer = new StringBuffer();
@@ -115,5 +104,30 @@ public class CommonProcessTask implements java.io.Serializable
       strBuffer.append("ruleName:" + ruleName + "\n");
       strBuffer.append("userName:" + userName + "\n");
       return strBuffer.toString();
+   }
+
+   public java.util.Date getExpiryDate()
+   {
+      return this.expiryDate;
+   }
+
+   public void setExpiryDate(java.util.Date expiryDate)
+   {
+      this.expiryDate = expiryDate;
+   }
+
+   public CommonProcessTask(java.lang.String pathCd, java.lang.String groupName,
+         java.lang.String taskName, java.lang.String taskDescription,
+         java.lang.String processCd, java.lang.String ruleName,
+         java.lang.String userName, java.util.Date expiryDate)
+   {
+      this.pathCd = pathCd;
+      this.groupName = groupName;
+      this.taskName = taskName;
+      this.taskDescription = taskDescription;
+      this.processCd = processCd;
+      this.ruleName = ruleName;
+      this.userName = userName;
+      this.expiryDate = expiryDate;
    }
 }
