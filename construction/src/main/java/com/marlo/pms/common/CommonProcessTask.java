@@ -17,7 +17,7 @@ public class CommonProcessTask implements java.io.Serializable
    private java.lang.String ruleName;
    private java.lang.String userName;
 
-   private java.util.Date expiryDate;
+   private java.util.Date taskExpiryDate;
 
    public CommonProcessTask()
    {
@@ -106,20 +106,20 @@ public class CommonProcessTask implements java.io.Serializable
       return strBuffer.toString();
    }
 
-   public java.util.Date getExpiryDate()
+   public java.util.Date getTaskExpiryDate()
    {
-      return this.expiryDate;
+      return this.taskExpiryDate;
    }
 
-   public void setExpiryDate(java.util.Date expiryDate)
+   public void setTaskExpiryDate(java.util.Date taskExpiryDate)
    {
-      this.expiryDate = expiryDate;
+      this.taskExpiryDate = taskExpiryDate;
    }
 
    public CommonProcessTask(java.lang.String pathCd, java.lang.String groupName,
          java.lang.String taskName, java.lang.String taskDescription,
          java.lang.String processCd, java.lang.String ruleName,
-         java.lang.String userName, java.util.Date expiryDate)
+         java.lang.String userName, java.util.Date taskExpiryDate)
    {
       this.pathCd = pathCd;
       this.groupName = groupName;
@@ -128,6 +128,6 @@ public class CommonProcessTask implements java.io.Serializable
       this.processCd = processCd;
       this.ruleName = ruleName;
       this.userName = userName;
-      this.expiryDate = expiryDate;
+      this.taskExpiryDate = taskExpiryDate;
    }
 }
