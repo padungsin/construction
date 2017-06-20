@@ -12,7 +12,7 @@ public class MGTBusinessData implements java.io.Serializable
    private java.lang.String name;
    private java.lang.String description;
 
-   private java.util.List<comorg.jbpm.document.Document> attachments;
+   private java.util.List<org.jbpm.document.Document> attachments;
 
    public MGTBusinessData()
    {
@@ -38,19 +38,19 @@ public class MGTBusinessData implements java.io.Serializable
       this.description = description;
    }
 
-   public java.util.List<comorg.jbpm.document.Document> getAttachments()
+   public java.util.List<org.jbpm.document.Document> getAttachments()
    {
       return this.attachments;
    }
 
    public void setAttachments(
-         java.util.List<comcomorg.jbpm.document.Document> attachments)
+         java.util.List<org.jbpm.document.Document> attachments)
    {
       this.attachments = attachments;
    }
 
    public MGTBusinessData(java.lang.String name, java.lang.String description,
-         java.util.List<comorg.jbpm.document.Document> attachments)
+         java.util.List<org.jbpm.document.Document> attachments)
    {
       this.name = name;
       this.description = description;
