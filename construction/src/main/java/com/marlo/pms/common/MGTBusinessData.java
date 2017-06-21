@@ -68,6 +68,12 @@ public class MGTBusinessData implements java.io.Serializable
       return this.requireSubcontract;
    }
 
+   public boolean getRequireSubcontract()
+   {
+      return this.requireSubcontract;
+   }
+
+
    public void setRequireSubcontract(boolean requireSubcontract)
    {
       this.requireSubcontract = requireSubcontract;
