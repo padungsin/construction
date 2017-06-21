@@ -88,7 +88,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>166</width>
       <header>Task Description</header>
       <boundName>commonProcessTask</boundName>
       <factField>taskDescription</factField>
@@ -290,7 +290,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MGT_APPROVAL</valueString>
+        <valueString>Approve The Project</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
