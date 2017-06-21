@@ -14,6 +14,10 @@ public class MGTBusinessData implements java.io.Serializable
 
    private java.util.List<com.marlo.pms.common.Attachment> attachments;
 
+   private double budget;
+
+   private boolean needSubcontract;
+
    public MGTBusinessData()
    {
    }
@@ -49,12 +53,35 @@ public class MGTBusinessData implements java.io.Serializable
       this.attachments = attachments;
    }
 
+   public double getBudget()
+   {
+      return this.budget;
+   }
+
+   public void setBudget(double budget)
+   {
+      this.budget = budget;
+   }
+
+   public boolean isNeedSubcontract()
+   {
+      return this.needSubcontract;
+   }
+
+   public void setNeedSubcontract(boolean needSubcontract)
+   {
+      this.needSubcontract = needSubcontract;
+   }
+
    public MGTBusinessData(java.lang.String name, java.lang.String description,
-         java.util.List<com.marlo.pms.common.Attachment> attachments)
+         java.util.List<com.marlo.pms.common.Attachment> attachments,
+         double budget, boolean needSubcontract)
    {
       this.name = name;
       this.description = description;
       this.attachments = attachments;
+      this.budget = budget;
+      this.needSubcontract = needSubcontract;
    }
 
 }
