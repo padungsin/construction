@@ -12,7 +12,7 @@
 <property name="rangeFormula" value="{APPROVAL_TO_NEXT_PROCESS,Approve;APPROVAL_TO_END_PROCESS,Reject,APPROVAL_TO_REVIEW,Review}"/>
 <property name="isHTML" value="false"/>
 <property name="hideContent" value="false"/>
-<property name="defaultValueFormula" value="=&quot;approve&quot;"/>
+<property name="defaultValueFormula" value="=&quot;APPROVAL_TO_NEXT_PROCESS&quot;"/>
 <property name="inputBinding" value="taskData/pathCd"/>
 <property name="outputBinding" value="taskData/pathCd"/>
 <property name="fieldClass" value="java.lang.String"/>
